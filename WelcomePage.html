@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>FeedBack Terminal</title>
+            <link rel="stylesheet" href="css/style.css">
+            <meta charset="utf-8"/>
+        </head>
+
+        <body>
+
+            <div class="nav-bar"></div>
+
+            <div id="app">
+            <h1 style="text-align:center;">?מה דעתך על חדר השירותים</h1>
+            <h1 style="text-align:center;">What is your opinion of the toilet?</h1>
+                    
+            <div class="row">
+                <div class="column" style="background-color:rgb(165, 222, 224);">
+                    <img src="D:\VSC PROJECTS\FeedBack App\assets\smiles\bad.png" alt="bad" onclick="GoToChooseWhyPage()">
+                  <p>לא טוב</p>
+                  <p>Not Good</p> 
+                </div>
+                <div class="column" style="background-color:rgb(165, 222, 224);" onclick="GoToChooseWhyPage()">
+                    <img src="D:\VSC PROJECTS\FeedBack App\assets\smiles\sad.png" alt="sad">
+                    <p>סביר</p>
+                    <p>good</p>
+                </div>
+                <div class="column" style="background-color:rgb(165, 222, 224);">
+                    <img src="D:\VSC PROJECTS\FeedBack App\assets\smiles\ok.png" alt="ok" onclick="GoToChooseWhyPage()" >
+                    <p>טוב מאוד</p>
+                    <p>Very Good</p>
+                </div>
+                <div class="column" style="background-color:rgb(165, 222, 224);">
+                    <img src="D:\VSC PROJECTS\FeedBack App\assets\smiles\good.png" alt="good" onclick="GoToThankYouPage()" >
+                    <p>מצויין</p>
+                    <p>Excellent</p>
+                </div>
+              </div>
+                          
+                
+            
+
+            </div>
+
+            <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+            <script src="js/script.js"></script>
+        </body>
+    </html> 
